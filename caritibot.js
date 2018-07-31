@@ -7,8 +7,11 @@ client.login(token);
 
 client.on('message', message => {
 
-    if(message.content.includes('Details: !sbux'))
+    if(message.content.includes('Details: !sbux')){
+        message.channel.send('@dunwoody');
+        message.channel.send('@ex');
         message.channel.send('!sbux');
+    }
 
     else if(message.content.toLocaleLowerCase() === 'hello')
         message.channel.send('Obligame prro! ' + message.author);
