@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDczNzA4MTg0NzcxNDkzODg5.DkF5cg.Xny4BmQl1rTXOg-lmWzh10BXWOM';
+const token = 'tokentokentoken';
 
 // Tags
 var dunwoody = '@dunwoody';
